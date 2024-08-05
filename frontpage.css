@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(68, 68, 181);
+}
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.button { 
+    background-color: white;
+    border: none;
+    color: grey;
+    margin: 4px 2px;
+    display: inline-block;
+    text-align: center;   
+}
+.button1 { padding: 10px 40px; width: 250px;
+    background-color: darkblue;}
+input{
+    padding: 10px 40px;
+}
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    gap: 20px;
+    grid-template-columns: 2fr 1fr;
+}

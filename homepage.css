@@ -1,0 +1,119 @@
+h1
+{
+ color: aquamarine;   
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 2fr 1fr;
+}
+.story {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    height:fit-content;
+}
+.story img {
+    width: 100%;
+    border-radius: 8px;
+}
+.post {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #fff;
+}
+.post-content {
+    margin-bottom: 10px;
+}
+.post-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.btn {
+    padding: 8px 60px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #166fe5;
+}
+.comments {
+    margin-top: 10px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+.comment {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+.comment p {
+    margin: 0;
+}
+.like-btn {
+    color: #1877f2;
+    cursor: pointer;
+}
+.main-content {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.box {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+
+}
+.box h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    
+}
+.feed {
+    grid-column: 1 / span 1; /* Adjust grid column span */
+}
+.videos {
+    grid-column: 2 / span 1; /* Adjust grid column span */
+}
+.notifications {
+    grid-column: 1 / span 2; /* Adjust grid column span */
+}
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn:hover {
+    background-color: #2d4474;
+}
